@@ -5,11 +5,11 @@ spring:
     nacos:
       config:
         ## 指定命名空间
-        namespace: 51f0479b-a88d-4646-902b-f2a063801502
+        namespace: cf10d40c-442d-4d01-8d13-59bb32a01e42
         ## 指定分组
-        group: ORDER_GROUP
+        group: DEFAULT_GROUP
         ## nacos的地址，作为配置中心
-        server-addr: 127.0.0.1:8848
+        server-addr: c.caijinopen.com:18848
         ## 配置内容的数据格式，目前只支持 properties 和 yaml 类型，这个和dataId有关-> ${prefix}-${spring.profiles.active}.${file-extension}
         file-extension: properties
 management:
